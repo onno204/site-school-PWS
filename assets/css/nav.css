@@ -1,0 +1,54 @@
+nav{
+    background-color: #2f3542;
+    color: white;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 3rem;
+    position: fixed;
+    transition: all .5s ease-in-out;
+    overflow: hidden;
+    z-index: 3;
+    font-size: 0;
+    text-align: center;
+}
+nav a{
+    color: white;
+    font-size: 1rem;
+    padding: .8rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    display: inline-block;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+    margin-left: -1px;
+    position: relative;
+}
+nav a:before{
+    content: ".";
+    position: absolute;
+    top: .5rem;
+    left: 0;
+    height: 2rem;
+    width: 1px;
+    color: rgba(0,0,0,0);
+    background-color: #a4b0be;
+}
+nav a:first-of-type:before{
+    display: none;
+}
+nav a{
+    position: relative;
+}
+nav a span{
+    padding-left: .4rem;
+}
+nav a:hover label{
+    animation-name: frame-fullspin;
+    animation-duration: .4s;
+}
+nav a:hover{ color: #a4b0be; }
+@keyframes frame-fullspin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg);  }
+}

@@ -1,0 +1,54 @@
+
+footer{
+    background-color: #2f3640;
+    color: #0652DD;
+    height: 33px;
+    padding: 4px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+}
+p, h1, h2, h3, h4, h5{
+    margin: 0;
+}
+a{
+    color: white;
+}
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    border-style: none;
+    padding: .5rem;
+    outline: none;
+}
+input[type="submit"], a{ cursor: pointer; }
+*, ::after, ::before { box-sizing: border-box; }
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    font-family: "Bahnschrift",BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-weight: 100;
+    font-size: 1rem;
+    /* text-transform: capitalize; */
+    margin: 0px;
+    line-height: 1.5;
+    background-color: #57606f;
+    color: white;
+    letter-spacing: .05rem;
+}
+body{ margin: 0px; margin-top: 6rem; }
+
+
+
+
+
+
+
+
+
